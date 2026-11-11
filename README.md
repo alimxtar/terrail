@@ -6,7 +6,7 @@
 
 <p align="center">
   Analisis dan strategi lari trail dan road, plus studio kartu dan stiker untuk sebelum dan sesudah lari.<br>
-  Gratis, tanpa akun, tanpa internet. Untuk Android.
+  Gratis, tanpa akun, data tetap di HP. Untuk Android.
 </p>
 
 <p align="center">
@@ -61,6 +61,8 @@ Impor file GPX rute lomba, dan Terrail menghitung target pace untuk setiap tanja
 - Pace aktual per medan, termasuk perbandingan dengan rencana yang disimpan sebelum lomba.
 - **Temuan otomatis**, misalnya "turunan curammu lebih lambat dari turunan biasa", positive atau negative split, km tercepat dan terlambat, serta total waktu berhenti.
 - Hubungkan rekaman ke rute lomba untuk waktu tiba di WS dan waktu chip resmi.
+- **Ambil dari Strava:** di aplikasi Strava, ketuk Share lalu pilih Terrail, atau tempel link aktivitas di tombol **Dari Strava**. Terrail membuka halaman ekspor GPX, dan file yang terunduh bisa langsung dibuka dengan Terrail.
+- **Bagikan ke Terrail:** file GPX, TCX, KML, KMZ, dan FIT dari aplikasi jam atau pengelola file bisa dibagikan atau dibuka langsung dengan Terrail.
 
 ### Studio
 - **Kartu** story (9:16) dan feed (4:5) dengan latar gradasi atau foto sendiri.
@@ -87,15 +89,17 @@ Butuh Android 7.0 atau lebih baru.
 ## Cara pakai singkat
 
 1. **Rute lomba:** unduh GPX, KML, atau KMZ dari panitia, lalu buka tab **Strategi** dan pilih **Impor file**.
-2. **Rekaman lari:** ekspor GPX dari aplikasi jam (misalnya Huawei Health, Garmin Connect, COROS, atau Strava), lalu impor di tab **Hasil**.
-3. **Kartu atau stiker:** buka tab **Studio**, pilih rute atau hasil lari, atur tampilannya, lalu **Unduh** atau **Bagikan**.
+2. **Rekaman lari:** ekspor GPX dari aplikasi jam (misalnya Huawei Health, Garmin Connect, atau COROS), lalu bagikan ke Terrail atau impor di tab **Hasil**.
+3. **Dari Strava:** di aplikasi Strava, buka aktivitasmu, ketuk **Share**, lalu pilih **Terrail**. Login Strava sekali di halaman yang terbuka, dan GPX langsung terunduh. Ketuk notifikasi unduhan, lalu pilih Terrail. Strava hanya mengizinkan ekspor GPX untuk aktivitas milik sendiri.
+4. **Kartu atau stiker:** buka tab **Studio**, pilih rute atau hasil lari, atur tampilannya, lalu **Unduh** atau **Bagikan**.
 
 Format yang didukung: GPX, TCX, KML, KMZ, dan FIT.
 
 ## Privasi
 
 - Semua data tersimpan di HP. Tanpa akun, server, atau iklan.
-- Aplikasi tidak meminta izin internet, lokasi, atau notifikasi. Satu-satunya izin adalah menyimpan gambar ke galeri di Android 10 ke bawah.
+- Aplikasi tidak meminta izin lokasi atau notifikasi. Izin internet hanya dipakai untuk membuka link pendek Strava (`strava.app.link`) menjadi nomor aktivitas, dan hanya menghubungi server Strava. Izin galeri hanya untuk Android 10 ke bawah.
+- Terrail tidak meminta atau menyimpan akun Strava. Login dilakukan di browser.
 - Backup otomatis Android dimatikan, sehingga data lari tidak tersalin ke cloud.
 
 ## Catatan
@@ -114,7 +118,7 @@ Format yang didukung: GPX, TCX, KML, KMZ, dan FIT.
 <details>
 <summary><b>English</b></summary>
 
-Terrail is a free, offline Android app for trail and road runners. Import a race GPX to get target pace for every climb, flat and descent (scaled to your finish target), a fuel plan translated into real foods and products, and km splits. Import a run from your watch for terrain pace, splits and automatic insights. The studio turns both into story or feed cards and transparent PNG stickers, with an Instagram Story safe zone. No account, no internet permission, all data stays on the phone. Download the APK from the [latest release](https://github.com/alimxtar/terrail/releases/latest); Android 7.0 or newer.
+Terrail is a free, offline Android app for trail and road runners. Import a race GPX to get target pace for every climb, flat and descent (scaled to your finish target), a fuel plan translated into real foods and products, and km splits. Import a run from your watch for terrain pace, splits and automatic insights. The studio turns both into story or feed cards and transparent PNG stickers, with an Instagram Story safe zone. Grab your own runs from Strava by sharing the activity link to Terrail. No account, all data stays on the phone; the internet permission is only used to expand Strava short links. Download the APK from the [latest release](https://github.com/alimxtar/terrail/releases/latest); Android 7.0 or newer.
 
 </details>
 
