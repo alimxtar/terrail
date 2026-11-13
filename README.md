@@ -63,13 +63,16 @@ Impor file GPX rute lomba, dan Terrail menghitung target pace untuk setiap tanja
 - Hubungkan rekaman ke rute lomba untuk waktu tiba di WS dan waktu chip resmi.
 - **Ambil dari Strava** lewat Strava API resmi: pilih aktivitas dari daftar, dan data masuk lengkap dengan **HR dan cadence**. Gratis, tanpa langganan Strava.
 - **HR dan cadence per medan**, misalnya HR di tanjakan dibanding di datar.
+- **Sinkron manual:** ketuk Sinkronkan di daftar aktivitas Strava, lalu **Impor semua** untuk mengambil semua aktivitas baru sekaligus.
+- **Putuskan Strava** kapan saja dari menu Saya → Strava. Terrail mencabut izinnya di Strava, dan panduan langkahnya tersedia di layar.
 - **Bagikan ke Terrail:** file GPX, TCX, KML, KMZ, dan FIT dari aplikasi jam atau pengelola file bisa dibagikan atau dibuka langsung dengan Terrail.
 
 ### Studio
 - **Kartu** story (9:16) dan feed (4:5) dengan latar gradasi atau foto sendiri.
 - **Label bebas:** Race, Course, Latihan, atau tulis sendiri, ditambah Trail atau Road.
 - **Zona aman Instagram Story.** Teks dijauhkan dari foto profil dan kolom balas.
-- **Stiker PNG transparan** untuk ditempel di atas foto: jejak rute, statistik, split per km, elevasi, dan pace per medan.
+- **Stiker PNG transparan** untuk ditempel di atas foto: jejak rute, statistik, split per km, elevasi, dan pace per medan. Bisa rata kiri, tengah, atau kanan; diletakkan di atas, tengah, atau bawah; dengan ukuran kecil sampai besar.
+- **Data lengkap di kartu:** HR rata-rata dan maksimal, cadence, waktu bergerak, dan HR per medan untuk hasil lari; pace target dan jumlah WS untuk pra-lomba.
 - 13 warna rute ditambah warna medan, serta ekspor HD atau 4K.
 - Modul yang datanya tidak ada otomatis nonaktif, lengkap dengan alasannya.
 
