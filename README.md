@@ -61,7 +61,9 @@ Impor file GPX rute lomba, dan Terrail menghitung target pace untuk setiap tanja
 - Pace aktual per medan, termasuk perbandingan dengan rencana yang disimpan sebelum lomba.
 - **Temuan otomatis**, misalnya "turunan curammu lebih lambat dari turunan biasa", positive atau negative split, km tercepat dan terlambat, serta total waktu berhenti.
 - Hubungkan rekaman ke rute lomba untuk waktu tiba di WS dan waktu chip resmi.
-- **Ambil dari Strava** lewat Strava API resmi: pilih aktivitas dari daftar, dan data masuk lengkap dengan **HR dan cadence**. Gratis, tanpa langganan Strava.
+- **Ambil dari COROS** lewat server MCP resmi COROS: gratis, tanpa langganan dan tanpa membuat aplikasi API. Login dengan akun COROS, lalu file FIT masuk lengkap dengan **HR dan cadence** (batas COROS 50 file per 24 jam).
+- **Huawei Health:** panduan ekspor GPX di dalam aplikasi. Huawei tidak membuka data latihan dan GPS untuk developer pribadi, jadi ekspor file adalah jalur paling lengkap.
+- **Ambil dari Strava** lewat Strava API resmi: pilih aktivitas dari daftar, dan data masuk lengkap dengan **HR dan cadence**. Sejak Juni 2026 Strava mewajibkan langganan untuk *membuat* aplikasi API; teman bisa memakai aplikasi API milik satu orang (sampai 10 akun).
 - **HR dan cadence per medan**, misalnya HR di tanjakan dibanding di datar.
 - **Sinkron manual:** ketuk Sinkronkan di daftar aktivitas Strava, lalu **Impor semua** untuk mengambil semua aktivitas baru sekaligus.
 - **Putuskan Strava** kapan saja dari menu Saya → Strava. Terrail mencabut izinnya di Strava, dan panduan langkahnya tersedia di layar.
@@ -94,21 +96,22 @@ Butuh Android 7.0 atau lebih baru.
 
 1. **Rute lomba:** unduh GPX, KML, atau KMZ dari panitia, lalu buka tab **Strategi** dan pilih **Impor file**.
 2. **Rekaman lari:** ekspor GPX dari aplikasi jam (misalnya Huawei Health, Garmin Connect, atau COROS), lalu bagikan ke Terrail atau impor di tab **Hasil**.
-3. **Dari Strava (sekali siapkan):**
+3. **Dari COROS:** tab **Hasil → Dari aplikasi lain → COROS**, pilih wilayah akun (Indonesia: Global), lalu **Login dengan COROS**. Saat login COROS hanya membuka aktivitas 24 jam terakhir; aktivitas lama bisa diekspor dari aplikasi COROS lalu dibagikan ke Terrail.
+4. **Dari Strava (sekali siapkan):**
    1. Buka [strava.com/settings/api](https://www.strava.com/settings/api) di browser lalu buat aplikasi API: nama bebas (misalnya Terrail), Website `https://github.com/alimxtar/terrail`, dan **Authorization Callback Domain: `localhost`**.
    2. Di Terrail, buka **Saya → Strava**, lalu tempel **Client ID** dan **Client Secret** dan ketuk **Hubungkan Strava**.
-   3. Setujui di aplikasi Strava atau browser. Setelah itu, tombol **Dari Strava** di tab Hasil menampilkan daftar aktivitasmu.
+   3. Setujui di aplikasi Strava atau browser. Setelah itu, tombol **Dari aplikasi lain → Strava** di tab Hasil menampilkan daftar aktivitasmu.
 
-   Strava meminta setiap pengguna membuat aplikasi API sendiri, karena aplikasi API baru hanya bisa dipakai akun pembuatnya.
-4. **Kartu atau stiker:** buka tab **Studio**, pilih rute atau hasil lari, atur tampilannya, lalu **Unduh** atau **Bagikan**.
+   Membuat aplikasi API Strava butuh langganan Strava. Aplikasi baru hanya bisa dipakai akun pembuatnya; naikkan *Athlete capacity* ke 10 di halaman yang sama supaya teman bisa login dengan Client ID dan Client Secret yang sama.
+5. **Kartu atau stiker:** buka tab **Studio**, pilih rute atau hasil lari, atur tampilannya, lalu **Unduh** atau **Bagikan**.
 
 Format yang didukung: GPX, TCX, KML, KMZ, dan FIT.
 
 ## Privasi
 
 - Semua data tersimpan di HP. Tanpa akun, server, atau iklan.
-- Aplikasi tidak meminta izin lokasi atau notifikasi. Izin internet hanya dipakai untuk Strava, dan hanya menghubungi server Strava. Izin galeri hanya untuk Android 10 ke bawah.
-- Sandi Strava tidak pernah dilihat Terrail, karena login dilakukan di aplikasi Strava atau browser. Client Secret dan token Strava disimpan terenkripsi di HP.
+- Aplikasi tidak meminta izin lokasi atau notifikasi. Izin internet hanya dipakai untuk Strava dan COROS, dan hanya menghubungi server keduanya. Izin galeri hanya untuk Android 10 ke bawah.
+- Sandi Strava dan COROS tidak pernah dilihat Terrail, karena login dilakukan di aplikasi Strava atau browser. Client Secret dan token disimpan terenkripsi di HP.
 - Backup otomatis Android dimatikan, sehingga data lari tidak tersalin ke cloud.
 
 ## Catatan
@@ -127,7 +130,7 @@ Format yang didukung: GPX, TCX, KML, KMZ, dan FIT.
 <details>
 <summary><b>English</b></summary>
 
-Terrail is a free, offline Android app for trail and road runners. Import a race GPX to get target pace for every climb, flat and descent (scaled to your finish target), a fuel plan translated into real foods and products, and km splits. Import a run from your watch for terrain pace, splits and automatic insights. The studio turns both into story or feed cards and transparent PNG stickers, with an Instagram Story safe zone. Import your own Strava runs with heart rate and cadence through the official Strava API, using your own free API application. No Terrail account, all data stays on the phone; the internet permission is only used for Strava. Download the APK from the [latest release](https://github.com/alimxtar/terrail/releases/latest); Android 7.0 or newer.
+Terrail is a free, offline Android app for trail and road runners. Import a race GPX to get target pace for every climb, flat and descent (scaled to your finish target), a fuel plan translated into real foods and products, and km splits. Import a run from your watch for terrain pace, splits and automatic insights. The studio turns both into story or feed cards and transparent PNG stickers, with an Instagram Story safe zone. Import runs with heart rate and cadence from COROS (free, through COROS's official MCP server) or Strava (official API; creating a Strava API app needs a Strava subscription since June 2026), and follow the in-app guide to export GPX from Huawei Health. No Terrail account, all data stays on the phone; the internet permission is only used for Strava and COROS. Download the APK from the [latest release](https://github.com/alimxtar/terrail/releases/latest); Android 7.0 or newer.
 
 </details>
 
