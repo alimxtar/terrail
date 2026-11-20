@@ -42,12 +42,12 @@ Impor file GPX rute lomba, dan Terrail menghitung target pace untuk setiap tanja
   </tr>
   <tr>
     <td align="center"><img src="docs/screenshots/13-huawei-health.png" width="240"><br><sub>Panduan Huawei Health</sub></td>
-    <td></td>
-    <td></td>
+    <td align="center"><img src="docs/screenshots/14-strava.png" width="240"><br><sub>Ambil dari Strava</sub></td>
+    <td align="center"><img src="docs/screenshots/15-tentang-dukung.png" width="240"><br><sub>Tentang dan dukung lewat Saweria</sub></td>
   </tr>
 </table>
 
-<sub>Rute di tangkapan layar: GPX publik Broder 65K 2026. Rekaman lari, HR, dan cadence di layar Hasil adalah contoh sintetis.</sub>
+<sub>Rute di tangkapan layar: GPX publik Siksorogo Lawu Ultra 120K 2026. Rekaman lari, HR, dan cadence di layar Hasil adalah contoh sintetis.</sub>
 
 ## Fitur
 
