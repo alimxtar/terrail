@@ -114,6 +114,10 @@ Format yang didukung: GPX, TCX, KML, KMZ, dan FIT.
 - Sandi Strava dan COROS tidak pernah dilihat Terrail, karena login dilakukan di aplikasi Strava atau browser. Client Secret dan token disimpan terenkripsi di HP.
 - Backup otomatis Android dimatikan, sehingga data lari tidak tersalin ke cloud.
 
+## Dukung Terrail
+
+Terrail gratis dan akan tetap gratis. Kalau aplikasinya membantu latihan atau lombamu, kamu bisa mentraktir pengembangnya lewat **[Saweria](https://saweria.co/mxctr)**. Dukungan sepenuhnya sukarela dan tidak membuka fitur tambahan.
+
 ## Catatan
 
 - Prediksi dan rencana bekal adalah titik awal untuk latihan dan perencanaan, bukan anjuran medis. Sesuaikan dengan kondisi tubuh dan uji di latihan sebelum lomba.
@@ -130,7 +134,7 @@ Format yang didukung: GPX, TCX, KML, KMZ, dan FIT.
 <details>
 <summary><b>English</b></summary>
 
-Terrail is a free, offline Android app for trail and road runners. Import a race GPX to get target pace for every climb, flat and descent (scaled to your finish target), a fuel plan translated into real foods and products, and km splits. Import a run from your watch for terrain pace, splits and automatic insights. The studio turns both into story or feed cards and transparent PNG stickers, with an Instagram Story safe zone. Import runs with heart rate and cadence from COROS (free, through COROS's official MCP server) or Strava (official API; creating a Strava API app needs a Strava subscription since June 2026), and follow the in-app guide to export GPX from Huawei Health. No Terrail account, all data stays on the phone; the internet permission is only used for Strava and COROS. Download the APK from the [latest release](https://github.com/alimxtar/terrail/releases/latest); Android 7.0 or newer.
+Terrail is a free, offline Android app for trail and road runners. Import a race GPX to get target pace for every climb, flat and descent (scaled to your finish target), a fuel plan translated into real foods and products, and km splits. Import a run from your watch for terrain pace, splits and automatic insights. The studio turns both into story or feed cards and transparent PNG stickers, with an Instagram Story safe zone. Import runs with heart rate and cadence from COROS (free, through COROS's official MCP server) or Strava (official API; creating a Strava API app needs a Strava subscription since June 2026), and follow the in-app guide to export GPX from Huawei Health. No Terrail account, all data stays on the phone; the internet permission is only used for Strava and COROS. Download the APK from the [latest release](https://github.com/alimxtar/terrail/releases/latest); Android 7.0 or newer. Terrail is free; if it helps you, you can support the developer on [Saweria](https://saweria.co/mxctr).
 
 </details>
 
