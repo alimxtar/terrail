@@ -112,6 +112,18 @@ Impor file GPX rute lomba, dan Terrail menghitung target pace untuk setiap tanja
 
 Butuh Android 7.0 atau lebih baru.
 
+### iPhone / iPad (versi web, untuk dicoba)
+
+1. Buka **[alimxtar.github.io/terrail](https://alimxtar.github.io/terrail/)** di **Safari** (bukan Chrome atau browser di dalam Instagram/WhatsApp).
+2. Ketuk tombol **Bagikan** (kotak dengan panah ke atas), lalu **Tambahkan ke Layar Utama** → **Tambah**.
+3. Buka Terrail dari ikon di Layar Utama.
+
+Catatan versi web:
+- Data tersimpan di browser HP itu saja. Data di ikon Layar Utama terpisah dari data di Safari, jadi selalu buka dari ikonnya.
+- Login Strava, COROS, dan Garmin belum tersedia di web. Ekspor GPX atau FIT dari aplikasinya (Huawei Health, Zepp, COROS, Garmin Connect, Strava di browser), lalu **Impor file** dari aplikasi File.
+- **Unduh** kartu atau stiker membuka menu Bagikan; pilih **Simpan Gambar** untuk menyimpannya ke Foto.
+- Butuh iOS 16.4 atau lebih baru. Bisa juga dibuka di browser laptop.
+
 ## Cara pakai singkat
 
 1. **Rute lomba:** unduh GPX, KML, atau KMZ dari panitia, lalu buka tab **Strategi** dan pilih **Impor file**.
@@ -154,7 +166,7 @@ Terrail gratis dan akan tetap gratis. Kalau aplikasinya membantu latihan atau lo
 <details>
 <summary><b>English</b></summary>
 
-Terrail is a free, offline Android app for trail and road runners. Import a race GPX to get target pace for every climb, flat and descent (from your profile, learned from your own runs, or set by hand, and scaled to your finish target), route highlights (where to push, the toughest climb, technical descents, and when to eat) marked on the elevation chart, a listen-to-your-body reminder with HR limits, a fuel plan translated into real foods and products, and km splits. Import a run from your watch for terrain pace, splits and automatic insights. The studio turns both into story or feed cards and transparent PNG stickers, with an Instagram Story safe zone. Import runs with heart rate and cadence from COROS (free, through COROS's official MCP server) Garmin (your own free Personal API key), or Strava (official API; creating a Strava API app needs a Strava subscription since June 2026), and follow the in-app guide to export GPX from Huawei Health. No Terrail account, all data stays on the phone; the internet permission is only used for Strava, COROS, and Garmin. Download the APK from the [latest release](https://github.com/alimxtar/terrail/releases/latest); Android 7.0 or newer. Terrail is free; if it helps you, you can support the developer on [Saweria](https://saweria.co/mxctr).
+Terrail is a free, offline Android app for trail and road runners. Import a race GPX to get target pace for every climb, flat and descent (from your profile, learned from your own runs, or set by hand, and scaled to your finish target), route highlights (where to push, the toughest climb, technical descents, and when to eat) marked on the elevation chart, a listen-to-your-body reminder with HR limits, a fuel plan translated into real foods and products, and km splits. Import a run from your watch for terrain pace, splits and automatic insights. The studio turns both into story or feed cards and transparent PNG stickers, with an Instagram Story safe zone. Import runs with heart rate and cadence from COROS (free, through COROS's official MCP server) Garmin (your own free Personal API key), or Strava (official API; creating a Strava API app needs a Strava subscription since June 2026), and follow the in-app guide to export GPX from Huawei Health. No Terrail account, all data stays on the phone; the internet permission is only used for Strava, COROS, and Garmin. Download the APK from the [latest release](https://github.com/alimxtar/terrail/releases/latest); Android 7.0 or newer. On iPhone, open [alimxtar.github.io/terrail](https://alimxtar.github.io/terrail/) in Safari and use Add to Home Screen (web version: file import only, no Strava/COROS/Garmin sign-in). Terrail is free; if it helps you, you can support the developer on [Saweria](https://saweria.co/mxctr).
 
 </details>
 
