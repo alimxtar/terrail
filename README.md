@@ -21,28 +21,41 @@ Impor file GPX rute lomba, dan Terrail menghitung target pace untuk setiap tanja
 
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/01-strategi.png" width="240"><br><sub>Prediksi atau target finish</sub></td>
-    <td align="center"><img src="docs/screenshots/02-pace-per-medan.png" width="240"><br><sub>Profil elevasi dan split per km</sub></td>
-    <td align="center"><img src="docs/screenshots/03-bekal.png" width="240"><br><sub>Bekal per segmen antar-WS</sub></td>
+    <td align="center"><img src="docs/screenshots/01-strategi.png" width="240"><br><sub>Prediksi finish dan dasar pace</sub></td>
+    <td align="center"><img src="docs/screenshots/02-sorotan.png" width="240"><br><sub>Sorotan rute: push, terberat, bekal</sub></td>
+    <td align="center"><img src="docs/screenshots/03-elevasi-sorotan.png" width="240"><br><sub>Sorotan di grafik elevasi</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/04-hasil.png" width="240"><br><sub>Analisis setelah lari</sub></td>
-    <td align="center"><img src="docs/screenshots/05-temuan.png" width="240"><br><sub>Pace aktual per medan</sub></td>
-    <td align="center"><img src="docs/screenshots/08-bekal-favorit.png" width="240"><br><sub>Bekal favorit</sub></td>
+    <td align="center"><img src="docs/screenshots/04-atur-pace.png" width="240"><br><sub>Atur pace sendiri</sub></td>
+    <td align="center"><img src="docs/screenshots/05-pace-per-medan.png" width="240"><br><sub>Target pace per medan</sub></td>
+    <td align="center"><img src="docs/screenshots/06-bekal.png" width="240"><br><sub>Bekal per segmen antar-WS</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/06-studio-kartu.png" width="240"><br><sub>Kartu pra-lomba dengan zona aman Story</sub></td>
-    <td align="center"><img src="docs/screenshots/07-studio-stiker.png" width="240"><br><sub>Stiker PNG transparan</sub></td>
+    <td align="center"><img src="docs/screenshots/07-hasil.png" width="240"><br><sub>Analisis setelah lari</sub></td>
+    <td align="center"><img src="docs/screenshots/08-temuan.png" width="240"><br><sub>Pace aktual per medan</sub></td>
+    <td align="center"><img src="docs/screenshots/09-studio-kartu.png" width="240"><br><sub>Kartu dengan zona aman Story</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/10-studio-stiker.png" width="240"><br><sub>Stiker PNG transparan</sub></td>
+    <td align="center"><img src="docs/screenshots/11-bekal-favorit.png" width="240"><br><sub>Bekal favorit</sub></td>
+    <td align="center"><img src="docs/screenshots/12-coros.png" width="240"><br><sub>Ambil dari COROS, gratis</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/13-huawei-health.png" width="240"><br><sub>Panduan Huawei Health</sub></td>
+    <td></td>
     <td></td>
   </tr>
 </table>
 
-<sub>Data di tangkapan layar memakai rute publik Biosferun 30K 2026.</sub>
+<sub>Rute di tangkapan layar: GPX publik Broder 65K 2026. Rekaman lari, HR, dan cadence di layar Hasil adalah contoh sintetis.</sub>
 
 ## Fitur
 
 ### Strategi
 - **Pace per medan.** Rute dibagi menjadi tanjakan curam, tanjakan, datar, turunan, dan turunan curam. Setiap medan punya target pace, rentang aman, porsi jarak, dan arahan seperti "jalan cepat (power hike)" atau "kendalikan laju, utamakan pijakan".
+- **Dasar pace bisa dipilih:** **Profil** (PB dan riwayat lomba di rute itu), **Hasil lari** (dipelajari dari rekaman lari yang sudah diimpor: seberapa cepat kamu di datar, tanjakan, dan turunan, lalu disesuaikan ke jarak lomba), atau **Atur sendiri** (pace datar plus gaya di tanjakan dan turunan, dari "kuat menanjak" sampai "banyak jalan", dari "hati-hati" sampai "berani").
+- **Sorotan rute:** bagian yang paling bisa dipush, tanjakan paling berat, turunan teknis, dan titik kritis bekal (sekitar 15 menit sebelum tanjakan besar), lengkap dengan rentang km, angka kunci, dan saran. Semuanya ditandai sebagai pita di grafik elevasi.
+- **Dengarkan tubuhmu:** pengingat bahwa rencana hanyalah panduan, dengan batas HR dari HR maks (misalnya jalan kalau HR di atas 85% di tanjakan) dan tanda bahaya yang perlu diwaspadai.
 - **Target finish.** Isi target, dan semua pace medan menyesuaikan supaya totalnya pas.
 - **Data seadanya tetap jalan.** Tanpa data apa pun, Terrail memakai perkiraan kasar dan menandainya dengan jelas. Makin lengkap datamu (PB, HR saat PB, berat badan, atau hasil lari di rute itu), makin akurat prediksinya.
 - **Skenario hari-H.** Segar, Normal, Lelah, atau Panas, lengkap dengan efeknya ke pace.
@@ -134,7 +147,7 @@ Terrail gratis dan akan tetap gratis. Kalau aplikasinya membantu latihan atau lo
 <details>
 <summary><b>English</b></summary>
 
-Terrail is a free, offline Android app for trail and road runners. Import a race GPX to get target pace for every climb, flat and descent (scaled to your finish target), a fuel plan translated into real foods and products, and km splits. Import a run from your watch for terrain pace, splits and automatic insights. The studio turns both into story or feed cards and transparent PNG stickers, with an Instagram Story safe zone. Import runs with heart rate and cadence from COROS (free, through COROS's official MCP server) or Strava (official API; creating a Strava API app needs a Strava subscription since June 2026), and follow the in-app guide to export GPX from Huawei Health. No Terrail account, all data stays on the phone; the internet permission is only used for Strava and COROS. Download the APK from the [latest release](https://github.com/alimxtar/terrail/releases/latest); Android 7.0 or newer. Terrail is free; if it helps you, you can support the developer on [Saweria](https://saweria.co/mxctr).
+Terrail is a free, offline Android app for trail and road runners. Import a race GPX to get target pace for every climb, flat and descent (from your profile, learned from your own runs, or set by hand, and scaled to your finish target), route highlights (where to push, the toughest climb, technical descents, and when to eat) marked on the elevation chart, a listen-to-your-body reminder with HR limits, a fuel plan translated into real foods and products, and km splits. Import a run from your watch for terrain pace, splits and automatic insights. The studio turns both into story or feed cards and transparent PNG stickers, with an Instagram Story safe zone. Import runs with heart rate and cadence from COROS (free, through COROS's official MCP server) or Strava (official API; creating a Strava API app needs a Strava subscription since June 2026), and follow the in-app guide to export GPX from Huawei Health. No Terrail account, all data stays on the phone; the internet permission is only used for Strava and COROS. Download the APK from the [latest release](https://github.com/alimxtar/terrail/releases/latest); Android 7.0 or newer. Terrail is free; if it helps you, you can support the developer on [Saweria](https://saweria.co/mxctr).
 
 </details>
 
